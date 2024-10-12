@@ -1,0 +1,70 @@
+/* Colors:
+#F0F0F0 - GL Accent
+#FF6F61 - FG Bright
+#333333 - FG Dark
+*/
+
+/* Global */
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+background-color: #F0F0F0;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+* {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.1rem;
+color: #333333;
+margin: 0;
+padding: 0;
+}
+
+img {
+pointer-events: none;
+}
+
+/* Pagesplit */
+
+.full {
+display: flex;
+justify-content: space-around;
+height: auto;
+align-items: center;
+flex-direction: row;
+max-width: 1000px;
+margin: auto;
+}
+
+.half {
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+width: 50%;
+text-align: center;
+padding: 0 1vw;
+}
+
+footer {
+background-color: rgba(0, 0, 0, 0.3);
+color: #F0F0F0;
+}
+
+footer * {
+font-size: 0.9rem;
+}
+
+.privacy {
+max-width: 60%;
+margin: auto;
+padding-bottom: 6%;
+}
+
+.privacy * {
+color: #333333;
+}
