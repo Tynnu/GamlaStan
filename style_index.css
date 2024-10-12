@@ -63,10 +63,8 @@ align-items: center;
 }
 
 .card {
-width: 50%;
-height: 50%;
-min-width: 400px;
-min-height: 260px;
+width: 800px;
+height: 520px;
 max-width: 96%;
 max-height: 96%;
 object-fit: contain;
